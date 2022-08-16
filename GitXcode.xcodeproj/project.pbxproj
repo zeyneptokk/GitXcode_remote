@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21B2337528AC0DB200E6BD4A /* GitXcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2337428AC0DB200E6BD4A /* GitXcodeApp.swift */; };
-		21B2337728AC0DB200E6BD4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2337628AC0DB200E6BD4A /* ContentView.swift */; };
+		21B2337728AC0DB200E6BD4A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2337628AC0DB200E6BD4A /* MainView.swift */; };
 		21B2337928AC0DB400E6BD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B2337828AC0DB400E6BD4A /* Assets.xcassets */; };
 		21B2337C28AC0DB400E6BD4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B2337B28AC0DB400E6BD4A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		21B2337128AC0DB200E6BD4A /* GitXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B2337428AC0DB200E6BD4A /* GitXcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitXcodeApp.swift; sourceTree = "<group>"; };
-		21B2337628AC0DB200E6BD4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21B2337628AC0DB200E6BD4A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		21B2337828AC0DB400E6BD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B2337B28AC0DB400E6BD4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				21B2337428AC0DB200E6BD4A /* GitXcodeApp.swift */,
-				21B2337628AC0DB200E6BD4A /* ContentView.swift */,
+				21B2337628AC0DB200E6BD4A /* MainView.swift */,
 				21B2337828AC0DB400E6BD4A /* Assets.xcassets */,
 				21B2337A28AC0DB400E6BD4A /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B2337728AC0DB200E6BD4A /* ContentView.swift in Sources */,
+				21B2337728AC0DB200E6BD4A /* MainView.swift in Sources */,
 				21B2337528AC0DB200E6BD4A /* GitXcodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
