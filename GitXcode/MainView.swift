@@ -12,9 +12,14 @@ struct MainView: View {
     
 //I am just trying :)))
     var body: some View {
+        ZStack {
+            Color.red.ignoresSafeArea(.all)
+        
         Text("This is a test!!")
             .padding()
-    }
+    
+            
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -24,3 +29,4 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 
+}
